@@ -1,15 +1,19 @@
 import React from "react";
-import profileImg from "../assets/dheeraj-profile.jpg";
+// import profileImg from "../assets/dheeraj-profile.jpg";
 
 function Info() {
 	return (
-		<div>
-			<img src={profileImg} alt="profile-img" />
-			<h1>Dheeraj Purohit</h1>
-			<p>Frontend Developer</p>
-			<small>purohitdheeraj.com</small>
-			<button>Email</button>
-			<button>LinkedIn</button>
+		<div className="info">
+			<div className="profile-image"></div>
+			<h1 className="name">Dheeraj Purohit</h1>
+			<p className="role">Frontend Developer</p>
+			<small className="website">
+				purohitdheeraj.com
+			</small>
+			<div className="btn-wrapper">
+				<button className="btn">Email</button>
+				<button className="btn">LinkedIn</button>
+			</div>
 		</div>
 	);
 }

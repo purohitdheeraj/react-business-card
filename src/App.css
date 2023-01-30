@@ -10,14 +10,52 @@ html {
 
 body {
 	font-size: 1.6rem;
+	height: 100vh;
+	font-family: "Inter", sans-serif;
 }
 
 .App {
 	max-width: 128rem;
 	margin: 0 auto;
-	height: 100vh;
 	background: rgba(35, 37, 44, 1);
 	color: #fff;
 	text-align: center;
-  padding: 1rem;
+	padding: 1rem;
+}
+
+.card {
+	margin: 0 auto;
+	max-height: 78rem;
+	max-width: 31.7rem;
+	background: rgba(245, 245, 245, 1);
+	color: black;
+	border-radius: 10px;
+}
+
+/* Info */
+.profile-image {
+	background: url("./assets/dheeraj-profile.jpg");
+	height: 317px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px 10px 0px 0px;
+	aspect-ratio: 1/1;
+}
+
+.name {
+	/* margin-top: 20px; */
+}
+
+/* footer */
+.footer {
+	background: rgba(213, 212, 216, 1);
+	border-radius: 0px 0px 10px 10px;
+}
+
+.social-icons-container {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding-inline: 0;
+	padding: 1rem;
 }
