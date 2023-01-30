@@ -1,3 +1,9 @@
+#root {
+	max-width: 128rem;
+	margin: 0 auto;
+	background: rgba(35, 37, 44, 1);
+}
+
 * {
 	margin: 0;
 	box-sizing: border-box;
@@ -9,47 +15,108 @@ html {
 }
 
 body {
-	font-size: 1.6rem;
 	height: 100vh;
+	font-size: 1.6rem;
 	font-family: "Inter", sans-serif;
 }
 
 .App {
-	max-width: 128rem;
-	margin: 0 auto;
-	background: rgba(35, 37, 44, 1);
-	color: #fff;
-	text-align: center;
-	padding: 1rem;
+	padding: 2rem;
 }
+
+/* container -  card */
 
 .card {
 	margin: 0 auto;
-	max-height: 78rem;
+	min-height: 78rem;
 	max-width: 31.7rem;
 	background: rgba(245, 245, 245, 1);
-	color: black;
 	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
-/* Info */
-.profile-image {
+.card-info {
+	padding: 2rem 3.5rem;
+}
+
+/* CardImage */
+.card-image {
 	background: url("./assets/dheeraj-profile.jpg");
-	height: 317px;
+	height: 31.7rem;
+	max-width: 100%;
 	background-size: cover;
 	background-position: center;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 1rem 1rem 0px 0px;
 	aspect-ratio: 1/1;
 }
 
-.name {
-	/* margin-top: 20px; */
+/* card info */
+.info {
+	text-align: center;
+}
+
+.info-name {
+	font-size: 2.5rem;
+}
+
+.info-role {
+	font-size: 1.28rem;
+	color: rgba(244, 125, 39, 1);
+	margin-top: 6px;
+}
+
+.info-website {
+	font-size: 1rem;
+	color: rgba(74, 78, 116, 1);
+	margin-top: 8px;
+}
+
+.btn-wrapper {
+	margin-top: 2.6rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.btn {
+	width: 12rem;
+	border: 0;
+	padding: 1rem 1.8rem;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 1.4rem;
+	cursor: pointer;
+}
+
+.btn-email {
+	background: rgba(209, 213, 219, 1);
+}
+
+.btn-linkedIn {
+	background: rgba(41, 127, 229, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+/* about */
+/* interest */
+/* * common styling */
+
+.heading {
+	margin-top: 2.5rem;
+	font-size: 1.6rem;
+}
+
+.text {
+	margin-top: 5px;
+	font-size: 1.2rem;
 }
 
 /* footer */
 .footer {
 	background: rgba(213, 212, 216, 1);
 	border-radius: 0px 0px 10px 10px;
+	margin-top: auto;
 }
 
 .social-icons-container {

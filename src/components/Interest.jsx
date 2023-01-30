@@ -2,15 +2,15 @@ import React from "react";
 
 function Interest() {
 	return (
-		<div>
-			<h2>Interests</h2>
-
-			<p>
-				Food expert. Music scholar. Reader. Internet
-				fanatic. Bacon buff. Entrepreneur. Travel
-				geek. Pop culture ninja. Coffee fanatic.
+		<section className="interest">
+			<h2 className="heading">Interests</h2>
+			<p className="text">
+				Web Technologies, Creating simple and
+				elegant web designs, Digital Marketing
+				Martial Arts, Yoga, keen interest in
+				Spiritual activities.
 			</p>
-		</div>
+		</section>
 	);
 }
 
