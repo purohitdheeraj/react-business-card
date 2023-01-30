@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* base 10px */
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+.App {
+	max-width: 128rem;
+	margin: 0 auto;
+	height: 100vh;
+	background: rgba(35, 37, 44, 1);
+	color: #fff;
+	text-align: center;
+  padding: 1rem;
+}
